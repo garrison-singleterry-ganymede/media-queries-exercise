@@ -99,8 +99,32 @@ footer {
 }
 @media screen and (min-width: 992px) {
 
-    /*body {*/
-    /*    display: grid;*/
-    /*}*/
+    .hidden-on-desktop{
+        display: none;
+    }
+    ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    li {
+        background: none;
+        margin: 0;
+    }
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "head nav"
+                "image image"
+                "image image"
+                "main sub"
+                ". ."
+                "foot .";
+    }
+
+    .header-img {
+        grid-area: image;
+        width: 100vw;
+    }
 
 }
