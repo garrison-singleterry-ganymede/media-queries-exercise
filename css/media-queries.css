@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.alert-info {
+    padding: 10px;
+    background: #add8e6;
+    text-align: center;
+    border: 2px solid #d3d3d3;
+    margin: 1em;
+
+}
+h1 {
+    margin: auto;
+    text-align: center;
+}
+.nav-links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+li {
+    background: #d3d3d3;
+    /*border: 1px solid black;*/
+    margin: 1em;
+    height: 3em
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+ul {
+
+}
+a {
+    padding: 1em;
+}
+.alert-info>a {
+    width: 100%;
+
+}
+@media screen and (min-width:576px) {
+    .hidden-on-desktop {
+
+    }
+}
