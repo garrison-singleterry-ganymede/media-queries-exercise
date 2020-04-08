@@ -22,22 +22,50 @@ li {
     background: #d3d3d3;
     /*border: 1px solid black;*/
     margin: 1em;
-    height: 3em
+    height: 3em;
+    font-size: 16px;
     display: flex;
     align-items:center;
     justify-content: center;
 }
-ul {
 
-}
-a {
+li>a {
     padding: 1em;
 }
 .alert-info>a {
     width: 100%;
+    display: inline-block;
+    padding: ;
 
 }
-@media screen and (min-width:576px) {
+
+.header-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    max-width: 95%;
+    max-height: 95%;
+    /*max-width: 890px;*/
+    /*max-height: 385px;*/
+}
+
+.main {
+    margin-bottom: 5em;
+}
+
+.alert-info>a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.alert-info>a:visited {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
     .hidden-on-desktop {
 
     }
