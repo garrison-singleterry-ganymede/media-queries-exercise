@@ -112,19 +112,33 @@ footer {
     }
     body {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 10% 1fr 1fr 1fr 1fr 10%;
         grid-template-areas:
                 "head nav"
                 "image image"
                 "image image"
                 "main sub"
-                ". ."
+                ".     . "
                 "foot .";
+    }
+
+    img {
+       width: 97vw;
     }
 
     .header-img {
         grid-area: image;
-        width: 100vw;
+    }
+
+    .main {
+        margin-left: 1em;
+
+    }
+
+    h1 {
+        text-align: left;
+        margin-left: .3em;
     }
 
 }
