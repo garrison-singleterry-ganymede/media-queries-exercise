@@ -97,6 +97,9 @@ footer {
     margin: 1em;
     grid-area: foot;
 }
+i {
+    margin-left: 1em;
+}
 
 @media screen and (min-width: 992px) {
 
