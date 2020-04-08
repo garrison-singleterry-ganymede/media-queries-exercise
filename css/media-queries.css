@@ -93,10 +93,14 @@ img {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 2em;
     margin: 1em;
     grid-area: foot;
 }
+
 @media screen and (min-width: 992px) {
 
     .hidden-on-desktop{
@@ -120,7 +124,7 @@ footer {
                 "image image"
                 "main sub"
                 ".     . "
-                "foot .";
+                "foot foot";
     }
 
     img {
@@ -140,5 +144,4 @@ footer {
         text-align: left;
         margin-left: .3em;
     }
-
 }
